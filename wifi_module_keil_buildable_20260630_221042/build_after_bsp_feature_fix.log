@@ -1,0 +1,80 @@
+*** Using Compiler 'V6.24', folder: 'C:\Users\yiziw\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+Note: source file '.\libs\libs.c' - object file renamed from '.\Objects\libs.o' to '.\Objects\libs_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/common_data.c' - object file renamed from '.\Objects\common_data.o' to '.\Objects\common_data_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/hal_data.c' - object file renamed from '.\Objects\hal_data.o' to '.\Objects\hal_data_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/main.c' - object file renamed from '.\Objects\main.o' to '.\Objects\main_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/pin_data.c' - object file renamed from '.\Objects\pin_data.o' to '.\Objects\pin_data_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/vector_data.c' - object file renamed from '.\Objects\vector_data.o' to '.\Objects\vector_data_1.o'.drivers/drv_esp32.c(470): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  470 |     memset(ssid_buf, 0, buf_len);
+      |     ~~~~~~              ^~~~~~~
+drivers/drv_esp32.c(493): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  493 |     memset(ip_buf, 0, buf_len);
+      |     ~~~~~~            ^~~~~~~
+drivers/drv_esp32.c(595): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  595 |     memset(resp_buf, 0, max_len);
+      |     ~~~~~~              ^~~~~~~
+drivers/drv_esp32.c(648): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  648 |     memset(resp_buf, 0, max_len);
+      |     ~~~~~~              ^~~~~~~
+4 warnings generated.
+compiling drv_esp32.c...
+compiling bsp_common.c...
+compiling delay.c...
+compiling bsp_guard.c...
+compiling bsp_group_irq.c...
+drivers/drv_wifi.c(103): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  103 |     strncpy(ip, gLocalIp, len - 1);
+      |     ~~~~~~~               ~~~~^~~
+drivers/drv_wifi.c(123): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  123 |     memset(host, 0, host_len);
+      |     ~~~~~~          ^~~~~~~~
+drivers/drv_wifi.c(124): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  124 |     memset(path, 0, path_len);
+      |     ~~~~~~          ^~~~~~~~
+drivers/drv_wifi.c(136): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  136 |         strncpy(host, host_begin, hlen);
+      |         ~~~~~~~                   ^~~~
+drivers/drv_wifi.c(137): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  137 |         strncpy(path, slash, path_len - 1);
+      |         ~~~~~~~              ~~~~~~~~~^~~
+drivers/drv_wifi.c(140): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  140 |         strncpy(host, host_begin, host_len - 1);
+      |         ~~~~~~~                   ~~~~~~~~~^~~
+drivers/drv_wifi.c(141): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  141 |         strncpy(path, "/", path_len - 1);
+      |         ~~~~~~~            ~~~~~~~~~^~~
+drivers/drv_wifi.c(154): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  154 |         memset(host, 0, host_len);
+      |         ~~~~~~          ^~~~~~~~
+drivers/drv_wifi.c(155): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  155 |         strncpy(host, host_begin, hlen);
+      |         ~~~~~~~                   ^~~~
+drivers/drv_wifi.c(217): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  217 |     snprintf(url, max_len, "http://%s:%d%s", gCloudHost, gCloudPort, endpoint);
+      |     ~~~~~~~~      ^~~~~~~
+drivers/drv_wifi.c(262): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  262 |     snprintf(url_buf, max_len, "http://%s:%d/report/%s",
+      |     ~~~~~~~~          ^~~~~~~
+11 warnings generated.
+compiling drv_wifi.c...
+compiling system.c...
+compiling hal_entry.c...
+compiling bsp_delay.c...
+compiling startup.c...
+compiling bsp_clocks.c...
+compiling bsp_irq.c...
+compiling bsp_io.c...
+compiling bsp_register_protection.c...
+compiling bsp_rom_registers.c...
+compiling bsp_security.c...
+compiling r_ioport.c...
+compiling r_sci_uart.c...
+compiling main.c...
+compiling common_data.c...
+compiling vector_data.c...
+compiling pin_data.c...
+compiling hal_data.c...
+linking...
+.\script\fsp.scat(70): warning: L6329W: Pattern *(.data) only matches removed unused sections.
+Program Size: Code=13656 RO-data=2320 RW-data=4 ZI-data=9180  
+Finished: 0 information, 1 warning and 0 error messages.
+After Build - User command #1: cmd /c ""D:\RA6M5\wifi_module_keil\rasc_launcher.bat" "D:\RA6M5\wifi_module_keil\rasc_version.txt" -nosplash --launcher.suppressErrors --gensmartbundle --compiler ARMv6 --devicefamily ra "D:\RA6M5\wifi_module_keil\configuration.xml" "D:\RA6M5\wifi_module_keil\Objects\WiFiModule.axf" 2> "%TEMP%\rasc_stderr.out""
+".\Objects\WiFiModule.axf" - 1 Error(s), 16 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02

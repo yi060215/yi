@@ -1,0 +1,25 @@
+*** Using Compiler 'V6.24', folder: 'C:\Users\yiziw\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+Note: source file '.\libs\libs.c' - object file renamed from '.\Objects\libs.o' to '.\Objects\libs_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/common_data.c' - object file renamed from '.\Objects\common_data.o' to '.\Objects\common_data_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/hal_data.c' - object file renamed from '.\Objects\hal_data.o' to '.\Objects\hal_data_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/main.c' - object file renamed from '.\Objects\main.o' to '.\Objects\main_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/pin_data.c' - object file renamed from '.\Objects\pin_data.o' to '.\Objects\pin_data_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/vector_data.c' - object file renamed from '.\Objects\vector_data.o' to '.\Objects\vector_data_1.o'.compiling hal_entry.c...
+linking...
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_common_init multiply defined (by common_data_1.o and common_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_uart2 multiply defined (by hal_data_1.o and hal_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_uart2_ctrl multiply defined (by hal_data_1.o and hal_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_hal_init multiply defined (by hal_data_1.o and hal_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_ioport multiply defined (by common_data_1.o and common_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_ioport_ctrl multiply defined (by common_data_1.o and common_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol main multiply defined (by main_1.o and main.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by main_1.o and main.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_bsp_pin_cfg multiply defined (by pin_data_1.o and pin_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_bsp_pin_cfg_data multiply defined (by pin_data_1.o and pin_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol uart2_callback multiply defined (by hal_data_1.o and hal_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_uart2_cfg_extend multiply defined (by hal_data_1.o and hal_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_uart2_cfg multiply defined (by hal_data_1.o and hal_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_vector_table multiply defined (by vector_data_1.o and vector_data.o).
+.\Objects\WiFiModule.axf: Error: L6200E: Symbol g_interrupt_event_link_select multiply defined (by vector_data_1.o and vector_data.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 15 error messages.
+".\Objects\WiFiModule.axf" - 15 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
