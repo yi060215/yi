@@ -4,8 +4,8 @@
 #define LIBS_USE_DELAY      1
 #define LIBS_USE_PRINTF     1
 
-#define WIFI_SSID           "yi"
-#define WIFI_PASSWORD       "12345678"
+#define WIFI_SSID           "YOUR_WIFI_SSID"
+#define WIFI_PASSWORD       "YOUR_WIFI_PASSWORD"
 
 #define CLOUD_TEST_URL      "http://example.com/"
 

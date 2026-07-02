@@ -1,0 +1,10 @@
+**/.venv/
+**/__pycache__/
+**/*.pyc
+**/*.log.tmp
+**/local_server.*.log
+**/server_stdout.log
+**/server_stderr.log
+**/applications/aliyun_cloud/data/*.json
+**/Objects/
+**/Listings/

@@ -1,7 +1,0 @@
-*** Using Compiler 'V6.24', folder: 'C:\Users\yiziw\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
-Build target 'Target 1'
-Note: source file '.\libs\libs.c' - object file renamed from '.\Objects\libs.o' to '.\Objects\libs_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/common_data.c' - object file renamed from '.\Objects\common_data.o' to '.\Objects\common_data_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/hal_data.c' - object file renamed from '.\Objects\hal_data.o' to '.\Objects\hal_data_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/main.c' - object file renamed from '.\Objects\main.o' to '.\Objects\main_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/pin_data.c' - object file renamed from '.\Objects\pin_data.o' to '.\Objects\pin_data_1.o'.Note: source file 'D:/RA6M5/wifi_module_keil/ra_gen/vector_data.c' - object file renamed from '.\Objects\vector_data.o' to '.\Objects\vector_data_1.o'.linking...
-.\script\fsp.scat(70): warning: L6329W: Pattern *(.data) only matches removed unused sections.
-Program Size: Code=13656 RO-data=2320 RW-data=4 ZI-data=9180  
-Finished: 0 information, 1 warning and 0 error messages.
-After Build - User command #1: cmd /c ""D:\RA6M5\wifi_module_keil\rasc_launcher.bat" "D:\RA6M5\wifi_module_keil\rasc_version.txt" -nosplash --launcher.suppressErrors --gensmartbundle --compiler ARMv6 --devicefamily ra "D:\RA6M5\wifi_module_keil\configuration.xml" "D:\RA6M5\wifi_module_keil\Objects\WiFiModule.axf" 2> "%TEMP%\rasc_stderr.out""
