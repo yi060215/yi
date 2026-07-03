@@ -1,0 +1,17 @@
+[Unit]
+Description=TCM Cloud Flask Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/tcm-cloud
+Environment=APP_HOST=0.0.0.0
+Environment=APP_PORT=5000
+Environment=BASE_URL=http://YOUR_PUBLIC_IP:5000
+ExecStart=/root/tcm-cloud/.venv/bin/python /root/tcm-cloud/app.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

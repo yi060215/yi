@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+
+*.log
+*.err
+*.out
+
+data/*.json
+data/*.db
+!data/.gitkeep
+
+.env

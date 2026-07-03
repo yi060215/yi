@@ -6,5 +6,15 @@
 **/server_stdout.log
 **/server_stderr.log
 **/applications/aliyun_cloud/data/*.json
+**/applications/aliyun_cloud/data/*.db
 **/Objects/
 **/Listings/
+**/*.log
+**/*.out
+**/*.err
+**/*.axf
+**/*.bin
+**/*.hex
+**/*.o
+**/*.map
+**/*.lst

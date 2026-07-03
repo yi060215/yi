@@ -1,0 +1,6 @@
+si SWD
+speed 4000
+device R7FA6M5BF
+connect
+r
+q
