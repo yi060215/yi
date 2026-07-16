@@ -18,3 +18,7 @@
 **/*.o
 **/*.map
 **/*.lst
+mq136_sth40_demo_work/Objects/
+mq136_sth40_demo_work/Listings/
+mq136_sth40_demo_work/.settings/
+mq136_sth40_demo_work/.vscode/
